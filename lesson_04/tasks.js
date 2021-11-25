@@ -17,7 +17,6 @@ const russian = +prompt('Введите кол-во баллов по русск
 const informatics = +prompt('Введите кол-во баллов по информатике:', '');
 
 const result = maths + russian + informatics;
-console.log(result);
 
 if (result >= 265) {
   alert('Поздравляю, вы поступили на бюджет!');
